@@ -19,6 +19,8 @@ public class ClickNSendkeysByJSE {
 		Thread.sleep(1000);
 		WebElement textbox = driver.findElement(By.id("autocomplete"));
 		
+		
+		
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
 		js.executeScript("arguments[0].click()",click_operation );
 		Thread.sleep(1000);
